@@ -1,5 +1,6 @@
 {
     "description": "Search, download and install Nexus Mods onto your game servers, signed in with your own Nexus Mods account.",
+    "license": "PolyForm-Noncommercial-1.0.0",
     "autoload": {
         "psr-4": {
             "NexusMods\\": "src/"

@@ -174,4 +174,8 @@ This extension is not affiliated with or endorsed by Nexus Mods. It is being sub
 
 ## License
 
-[MIT](LICENSE)
+**Free for private and noncommercial use.** Personal use, hobby and community game servers, and noncommercial organizations can use, change and share this extension without charge, under the [PolyForm Noncommercial License 1.0.0](LICENSE).
+
+**Commercial use needs a separate license.** Examples include running it as part of a paid game-server hosting business, or bundling it into a product or service you sell. To discuss licensing options, [open an issue](https://github.com/Deakon80/nexus-mods-pterodactyl/issues) or contact [Deakon80](https://github.com/Deakon80) on GitHub.
+
+Version 1.0.0 was first published under the MIT License. Anyone who received it then keeps those rights for that version.
