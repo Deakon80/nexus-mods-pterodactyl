@@ -45,7 +45,7 @@ Go to this repository's [**Releases**](../../releases) page and download the lat
 
    ```bash
    cd /var/www/pterodactyl
-   sudo -u www-data php artisan p:extension:install /tmp/nexus-mods-1.0.0.pteroext --enable
+   sudo -u www-data php artisan p:extension:install /tmp/nexus-mods-1.0.1.pteroext --enable
    ```
 
    Use your web server's user in place of `www-data` if it is different (for example `nginx`).

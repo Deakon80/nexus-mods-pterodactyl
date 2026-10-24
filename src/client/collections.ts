@@ -8,7 +8,7 @@ import type { Installed } from './mods';
 import { isMainFile, modFiles, type NexusFile, type NexusMod } from './nexus';
 
 const API = 'https://api.nexusmods.com/v3';
-const APP_HEADERS = { 'Application-Name': 'Nexus Mods for Pterodactyl', 'Application-Version': '1.0.0' };
+const APP_HEADERS = { 'Application-Name': 'Nexus Mods for Pterodactyl', 'Application-Version': '1.0.1' };
 const POLL_INTERVAL_MS = 2000;
 const POLL_MAX_ATTEMPTS = 150; // 5 minutes, as Vortex waits
 const NAME_MAX = 36; // CollectionManifestInfo.name and EditCollectionRequest.name in the v3 spec

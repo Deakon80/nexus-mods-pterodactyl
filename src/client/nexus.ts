@@ -3,7 +3,7 @@
 // gets just the short-lived download link Nexus returns for the user's own account.
 
 const API = 'https://api.nexusmods.com';
-const APP_HEADERS = { 'Application-Name': 'Nexus Mods for Pterodactyl', 'Application-Version': '1.0.0' };
+const APP_HEADERS = { 'Application-Name': 'Nexus Mods for Pterodactyl', 'Application-Version': '1.0.1' };
 const STORAGE_KEY = 'nexus-mods:api-key';
 
 export interface NexusUser {
