@@ -1,0 +1,41 @@
+{
+    "$schema": "./node_modules/@pterodactyl/sdk/manifest.schema.json",
+    "id": "nexus-mods",
+    "name": "Nexus Mods for Pterodactyl",
+    "version": "1.0.0",
+    "requires": {
+        "panel": "^2.0.0-dev",
+        "sdk": ">=2.0.0-beta.6 <3.0",
+        "php": "^8.3"
+    },
+    "description": "Search, download and install Nexus Mods onto your game servers, signed in with your own Nexus Mods account. API keys stay in your browser and never reach the panel.",
+    "author": "Rogue Gamers",
+    "provider": "NexusMods\\NexusModsProvider",
+    "icon": "package",
+    "ui": {
+        "entry": "dist/client.js",
+        "mode": "native",
+        "prefix": "nxm",
+        "screens": [
+            {
+                "id": "main",
+                "area": "server",
+                "path": "nexus-mods",
+                "nav": {
+                    "label": "Nexus Mods",
+                    "icon": "package"
+                },
+                "permission": ["ext.nexus-mods.manage"]
+            },
+            {
+                "id": "admin",
+                "area": "admin",
+                "path": "nexus-mods",
+                "nav": {
+                    "label": "Nexus Mods",
+                    "icon": "package"
+                }
+            }
+        ]
+    }
+}

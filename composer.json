@@ -1,0 +1,11 @@
+{
+    "description": "Search, download and install Nexus Mods onto your game servers, signed in with your own Nexus Mods account.",
+    "autoload": {
+        "psr-4": {
+            "NexusMods\\": "src/"
+        }
+    },
+    "config": {
+        "autoloader-suffix": "NexusModsExtension"
+    }
+}
